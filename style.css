@@ -1,0 +1,36 @@
+body {
+  font-size: 200%;
+  text-align: center;
+}
+.header {
+  text-align: center;
+  height: 100px;
+}
+.container {
+  display: flex;
+  height: 840px;
+  flex: 1 0 content;
+  flex-direction: row;
+}
+.main {
+  flex-basis: 50%;
+}
+.inside {
+  display: flex;
+  flex-wrap: wrap;
+  height: 700px;
+  justify-content: space-around;
+  text-align: center;
+}
+.inside #one {
+  flex: 0 0 90%;
+}
+.aside {
+  flex-basis: 50%;
+}
+footer {
+  display: flex;
+  flex: 0 0 content;
+  flex-direction: row;
+  justify-content: space-between;
+}
